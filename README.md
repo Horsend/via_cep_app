@@ -1,16 +1,10 @@
 # via_cep_app
 
-A new Flutter application.
+Um aplicativo que acha endereço do CEP indicado
 
-## Getting Started
+## Resumo
 
-This project is a starting point for a Flutter application.
+Esse aplicativo recebe do usuario um cep e retorna ta tela o endereço daquele CEP. 
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Isso e possivel devido ao uso do banco de dados do site https://viacep.com.br/ que retorna em um arquivo Json o endereco do CEP. 
+O app consome a API mudando a url para o cep desejado
